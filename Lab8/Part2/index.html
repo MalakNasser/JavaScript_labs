@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Watch</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="sec1">
+        <div class="digital">
+          <div class="weekdays" id="weekdays">
+            <div class="button-row"><span>sun</span></div>
+            <div class="button-row"><span>mon</span></div>
+            <div class="button-row"><span>tue</span></div>
+            <div class="button-row"><span>wed</span></div>
+            <div class="button-row"><span>thu</span></div>
+            <div class="button-row"><span>fri</span></div>
+            <div class="button-row"><span>sat</span></div>
+          </div>
+          <span id="clock"></span>
+        </div>
+      </section>
+      <section class="sec2">
+        <div class="alarm">
+          <h1>Set Alarm After</h1>
+          <div>
+            <span>Hours:</span>
+            <input placeholder="0" min="0" max="24" type="number" id="hours" />
+          </div>
+          <div>
+            <span>Minutes:</span>
+            <input
+              placeholder="0"
+              min="0"
+              max="60"
+              type="number"
+              id="minutes"
+            />
+          </div>
+          <div>
+            <span>Seconds:</span>
+            <input
+              placeholder="0"
+              min="0"
+              max="60"
+              type="number"
+              id="seconds"
+            />
+          </div>
+          <div class="button-row">
+            <button class="btn set-btn">Set</button>
+            <button class="btn clear-btn">Clear</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="digital watch.js"></script>
+  </body>
+</html>
