@@ -42,20 +42,14 @@ function showImageAuto() {
   }, 3000);
 }
 
-function stopImageAuto() {
-  clearInterval(intervalId);
-}
-
 nextBtn.addEventListener("click", function () {
   currentIndex++;
   showImage(currentIndex);
-  stopImageAuto();
 });
 
 prevBtn.addEventListener("click", function () {
   currentIndex--;
   showImage(currentIndex);
-  stopImageAuto();
 });
 
 showImageAuto();
