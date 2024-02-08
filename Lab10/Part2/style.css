@@ -1,0 +1,26 @@
+#userList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.user {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.user p {
+  margin-top: 10px;
+  font-size: 14px;
+}
